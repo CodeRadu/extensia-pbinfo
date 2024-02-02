@@ -1,0 +1,17 @@
+{
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "https://www.pbinfo.ro/*"
+      ]
+    }
+  ],
+  "description": "O extensie pentru pbinfo care inlocuieste E.C. cu E.P.",
+  "manifest_version": 3,
+  "name": "Extensia Pbinfo",
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "1.0"
+}
